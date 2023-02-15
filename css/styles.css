@@ -1,0 +1,204 @@
+body
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#title
+{
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+h1
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3rem;
+    line-height:1.5 ;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+/*Navigation bar*/
+
+.navbar
+{
+padding: 0 0 4.5rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.navbar-brand
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.download-button
+{
+    margin:5% 3% 5% 0%;
+    
+}
+
+/*Rotate image*/
+
+.title-image
+{
+    width:20%;  
+    transform: rotate(25deg);
+    position:absolute;
+}
+
+/*FEATURES*/
+
+#features
+{
+    
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;  
+}
+
+.img-feature
+{
+    color: #ff4c68;
+    margin-bottom: 2%; 
+}
+
+.image-feature:hover
+{
+    color: #ff4c68;
+}
+
+.feature-div
+{
+    padding: 4.5%;
+    text-align: center;
+}
+
+.p-feature
+{ 
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    padding: 2% 2%;
+}
+
+/*Testimonials*/
+
+#testimonials
+{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff
+}
+
+h2
+{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+.testimonial-img
+{
+    width:10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+/* Press*/
+
+#press
+{
+    background-color: #ef8172;
+  padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo
+{
+    width:15%;
+    margin:2% 2% 5%
+}
+
+/*pricing*/
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding:3% 2%;
+}
+
+/*call in action*/
+
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:10%
+}
+
+.action-heading
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3rem;
+    color:#fff;  
+}
+
+.action-button
+{
+    margin:2% 3%;
+}
+
+/*footer*/
+
+#footer
+{
+    text-align:center;
+    padding:5% 2%;
+    color:grey;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing:2px;
+}
+
+.footer-img
+{
+    width:30px;
+    padding:0px 5px 3px;
+    margin:3% 1%;
+    font-weight:2%;
+}
+
+@media (max-width:1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+
+    }
+}
